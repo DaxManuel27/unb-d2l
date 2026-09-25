@@ -1,11 +1,16 @@
 {
-  "name": "unb-course-planner",
-  "version": "0.0.1",
+  "name": "unb-now",
+  "version": "0.4.4",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.js",
     "check": "node scripts/check.mjs",
-    "dev": "node scripts/serve.mjs"
+    "test:unb": "node --test tests/unb-now*.test.js",
+    "dev": "node scripts/serve-unb.mjs",
+    "dev:unb": "node scripts/serve-unb.mjs"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

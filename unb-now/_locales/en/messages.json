@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "UNB Now",
+    "description": "Working product name. Change it here and it updates the manifest, the side panel, the settings page and notifications."
+  },
+  "appDescription": {
+    "message": "All your Brightspace deadlines in one side panel, updated when profs move dates, with reminders before things close.",
+    "description": "Chrome Web Store and chrome://extensions description. 132 characters max, no dashes."
+  },
+  "actionTitle": {
+    "message": "Open your Brightspace deadlines",
+    "description": "Tooltip on the toolbar icon."
+  }
+}
